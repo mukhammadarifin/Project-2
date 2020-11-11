@@ -6,15 +6,11 @@
 @section('section')
     <div class="row">
         <div class="col-12">
-            <!-- /.card -->
             <div class="card">
                 <div class="card-header">
-                    <h3 class="card-title">Table All User</h3>
+                    <h3 class="card-title">Table Mahasiswa</h3>
                 </div>
-                <div>
-                    <a type="button" class="btn btn-primary m-3" href="admincreateuser">Tambah Data User</a>
-                </div>
-                <!-- /.card-table -->
+                <!-- /.card-header -->
                 <div class="card-body">
                     <table id="example1" class="table table-bordered table-striped">
                         <thead class="thead">
@@ -71,7 +67,7 @@
                         </tbody>
                     </table>
                 </div>
-                <!-- /.card-table -->
+                <!-- /.card-body -->
             </div>
             <!-- /.card -->
         </div>

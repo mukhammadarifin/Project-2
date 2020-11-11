@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\mahasiswaModel;
 
-class admin extends Controller
+class SiswaController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,11 +14,7 @@ class admin extends Controller
      */
     public function index()
     {
-        //query
-        $mahasiswa = mahasiswaModel::all();
-        //redirect or test data
-        // dump($mahasiswa);
-        return view('admin.homeadmin',compact('mahasiswa'));
+        return view('siswa.homesiswa');
     }
 
     /**
